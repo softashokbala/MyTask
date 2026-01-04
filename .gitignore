@@ -1,0 +1,38 @@
+# Android Studio/IntelliJ
+*.iml
+.idea/
+
+# Gradle
+.gradle/
+build/
+
+# Local configuration
+local.properties
+
+# KSP
+/app/build/generated/ksp/
+
+# Room
+/schemas/
+
+# Secrets (if you use a secrets gradle plugin)
+# secrets.properties
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (if you have them)
+# app/google-services.json
+
+# Build variants
+/app/build/
+
+# Captures (screenshots and profiler data)
+captures/
+
+# Other
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
